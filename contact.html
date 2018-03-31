@@ -1,0 +1,103 @@
+<html>
+<title>
+  Home
+</title>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css\services.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+     <!-- Navbar -->
+<div class="top-container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" class="navbar">
+    <img src="images\compassIcon.png" class="logo" alt="logo" width="42" height="42">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <a class="navbar-brand" href="gallery.html">Gallery</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+<br>
+<br>
+<br>
+
+<div class="jumbo">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Contact</h1>
+      <br>
+        <!-- Description -->
+    <div class="services">
+          <div class="row">
+            <div class="col-sm">
+              <h3 class="header">What do I offer?</h3>
+              <p class="text">
+                With the advent of small unmanned aerial vehicles, many new possibilites have emerged.
+                Images and video taken from the air offer a perspective that cannot be matched from the ground.
+                You can use my service as a way of portraying your business or subject of interest from a birds eye view.
+              </p>
+            </div>
+            <div class="col-sm">
+              <h3 class="header">Who am I?</h3>
+              <p class="text">
+                I am a student at the Kanti Baden and have been a drone enthusiast for many years.
+                I came across this business model as a friend of mine asked me to film him
+                driving a tractor on his family's farm. Since then, a few years have passed and my drone-arsenal has grown.
+                I've refined my film-making and piloting skills and I think I can change this hobby into a real income source.
+                If you are interested, you can contact me using the form further below.
+              </p>
+            </div>
+          </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- Contact form -->
+<div class="contactForm">
+<h2><b>Contact me:</b></h2>
+<p>Required fields are <b>bold</b></p>
+
+<form action="contact.php" method="post">
+<p><b>Your Name:</b> <input type="text" name="yourname" /><br />
+<b>Subject:</b> <input type="text" name="subject" /><br />
+<b>E-mail:</b> <input type="text" name="email" /><br />
+Website: <input type="text" name="website"></p>
+
+<p>Do you like this website?
+<input type="radio" name="likeit" value="Yes" checked="checked" /> Yes
+<input type="radio" name="likeit" value="No" /> No
+<input type="radio" name="likeit" value="Not sure" /> Not sure</p>
+
+<p>How did you find us?</p>
+<select name="how">
+<option value=""> -- Please select -- </option>
+<option>Google</option>
+<option>Yahoo</option>
+<option>Link from a website</option>
+<option>Word of mouth</option>
+<option>Other</option>
+</select>
+<p><b>Your comments:</b><br />
+<textarea name="comments" rows="10" cols="40"></textarea></p>
+<p><input type="submit" value="Send it!"></p>
+</form>
+</div>
+
+goi
+<!-- <script type="text/javascript" src="js\javascript.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

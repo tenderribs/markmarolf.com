@@ -1,0 +1,62 @@
+<style>
+.galleryText{
+  color: rgb(14, 14, 14);
+  background-color: rgb(180, 180 180);
+}
+.navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+.header {
+  padding: 10px 5px;
+  background: #555;
+  color: black;
+  position: sticky;
+  z-index: +1;
+}
+.logo{
+  width: 45px;
+  height: 40px;
+}
+
+.content{
+  padding:10px;
+}
+.contentHeader{
+  padding: 30px;
+  text-align: center;
+}
+.card-body{
+  background-color: #bcbcbc;
+}
+.row{
+  position: sticky;
+}
+
+body {
+  margin: 0;
+}
+.top-container {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+.content{
+  position: static;
+  z-index: -1;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+</style>

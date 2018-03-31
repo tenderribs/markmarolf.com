@@ -1,0 +1,5 @@
+<?php
+// config mail gun api key
+$mgClient = new Mailgun('api-key', new \Http\Adapter\Guzzle6\Client());
+$mgDomain = "mg.yourdomain.com";
+?>
